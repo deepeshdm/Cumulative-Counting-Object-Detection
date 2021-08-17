@@ -40,3 +40,6 @@ The run_inference() method takes a video file path parameter,you just have to pa
 The run_inference() method takes a video file path parameter,if you dont provide a video file path then the script will use the webcam and also display the real time output on the screen. Make sure to adjust the 'skip_frames' parameter accordingly if the 'show_video'=True to get a smooth display of the output on the screen.
 
 NOTE : The model has an approx accuracy of 70% which can be easily increased if further trained on good quality of image data.
+
+Reference : 
+https://github.com/TannerGilbert/Tensorflow-2-Object-Counting
