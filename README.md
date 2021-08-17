@@ -11,6 +11,10 @@ https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/
 
 https://youtu.be/dZh_ps8gKgs
 
+3] Download the trained model (saved_model folder) from the below link :
+
+https://drive.google.com/drive/folders/1Qw-s5aW01udcRYcXT9IfSSrihg1IHA2u?usp=sharing
+
 ## How to use :
 
 The 'mainAPI.py' file is the main file & acts as an simple API.It imports the run_inference() function from another script,this function takes multiple parameters like file paths , detection threshold,skip_frames etc all of them are mentioned in detail inside the script.
