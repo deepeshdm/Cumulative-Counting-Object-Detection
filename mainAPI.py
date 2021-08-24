@@ -25,6 +25,10 @@ warnings.filterwarnings('ignore')
 # Path to saved model file
 MODEL_PATH = r"C:\Users\dipesh\Desktop\Final Product\saved_model"
 
+# NOTE : The model has been trained on images of fixed resolution (640x640),
+# so the model wont function properly if given a video/image beyond that 
+# resolution.cRecommended resolution for the input is (960x720).
+
 # Path to your video file (if not given webcam will be used)
 VIDEO_PATH = r"C:\Users\dipesh\Downloads\2021-08-06_01-16-01_utc_scanning-tunnel.mp4"
 
