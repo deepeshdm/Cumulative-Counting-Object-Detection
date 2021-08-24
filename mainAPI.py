@@ -22,7 +22,7 @@ warnings.filterwarnings('ignore')
 
 # SET ALL THE NECESSARY PARAMETERS BELOW
 
-# Path to saved model file
+# Path to saved_model foler downloaded from google drive
 MODEL_PATH = r"C:\Users\dipesh\Desktop\Final Product\saved_model"
 
 # NOTE : The model has been trained on images of fixed resolution (640x640),
@@ -40,7 +40,7 @@ LABEL_MAP_PATH = r"C:/Users/dipesh/Desktop/label_map.pbtxt"
 SAVE_PATH = r"C:/Users/dipesh/Desktop/RESULT_VIDEO2.mp4"
 
 # Detection threshold
-THRESHOLD = 0.4
+THRESHOLD = 0.5
 
 # Region of Interest (Roi) position
 ROI = 0.6
@@ -54,7 +54,7 @@ SHOW_VIDEO = False
 
 # Object to Track & Count,we can choose one of 2 classes,
 # "Tunnel_Box" or "person"
-OBJECT2COUNT = "person"
+OBJECT2COUNT = "Tunnel_Box"
 
 # ---------------------------------------------------------------
 
