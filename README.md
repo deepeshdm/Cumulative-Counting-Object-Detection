@@ -34,3 +34,4 @@ The run_inference() method takes a video file path parameter,if you dont provide
 
 NOTE : The model has an approx accuracy of 90% which can be easily increased if further trained on good quality of image data.
 
+Reference : https://github.com/TannerGilbert/Tensorflow-2-Object-Counting
