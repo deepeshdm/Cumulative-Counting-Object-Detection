@@ -3,9 +3,10 @@
 
 #### Here we use Object tracking & Cumulative counting to detect how many total boxes are taken inside and outside the manufacturing tunnel by the workers,below is an example output of a video stream.The output can be generated from a video file or it can also be used for real-time surveillance in camera systems.
 
-![](/EXAMPLES/example_gif.gif)
-
-![](/EXAMPLES/result2_gif.gif)
+<div align="center">
+<Img src="/EXAMPLES/example_gif.gif">
+<Img src="/EXAMPLES/result2_gif.gif">
+</div>
 
 
 ## Instructions for setup :
