@@ -22,7 +22,7 @@ https://youtu.be/dZh_ps8gKgs
 
 https://drive.google.com/drive/folders/1AICgCnkSAtvTDh8DiX9yaDpslGqbIUsX?usp=sharing
 
-## How to use :
+## How to use API (Locally) :
 
 The 'mainAPI.py' file is the main file & acts as an simple API.It imports the run_inference() function from another script,this function takes multiple parameters like file paths , detection threshold,skip_frames etc all of them are mentioned in detail inside the script.
 
