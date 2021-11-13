@@ -1,6 +1,6 @@
 # Cumulative Counting and Object Tracking 
 
-## Objective
+### Objective
 
 The main goal of this project is to create a object detection system which can optimally track the movement of objects and also perform cumulative counting of objects. This application is supposed to be used in a industrial factory where workers manually move manufacturing goods into the production tunnel,this application will take input from the factory's 'surveillance camera system' and track how many containers were taken inside and outside the production tunnel by workers in real-time.
 
