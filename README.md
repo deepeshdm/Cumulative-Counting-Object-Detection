@@ -1,7 +1,12 @@
-## Cumulative Counting Object_Detecting using Tensorflow Object Detection
+# Cumulative Counting and Object Tracking 
 
+## Objective
 
-#### Here we use Object tracking & Cumulative counting to detect how many total boxes are taken inside and outside the manufacturing tunnel by the workers,below is an example output of a video stream.The output can be generated from a video file or it can also be used for real-time surveillance in camera systems.
+The main goal of this project is to create a object detection system which can optimally track the movement of objects and also perform cumulative counting of objects. This application is supposed to be used in a industrial factory where workers manually move manufacturing goods into the production tunnel,this application will take input from the factory's 'surveillance camera system' and track how many containers were taken inside and outside the production tunnel by workers in real-time.
+
+<div align="center">
+  <h4> (Example output videos from the surveillance camera system)</h4>
+</div>
 
 <div align="center">
 <Img src="/EXAMPLES/example_gif.gif">
