@@ -1,6 +1,6 @@
 # Cumulative Counting and Object Tracking 
 
-### Objective
+### OBJECTIVE
 
 The main goal of this project is to create a object detection system which can optimally track the movement of objects and also perform cumulative counting of objects. This application is supposed to be used in a industrial factory where workers manually move manufacturing goods into the production tunnel,this application will take input from the factory's 'surveillance camera system' and track how many containers were taken inside and outside the production tunnel by workers in real-time.
 
@@ -12,6 +12,12 @@ The main goal of this project is to create a object detection system which can o
 <Img src="/EXAMPLES/example_gif.gif">
 <Img src="/EXAMPLES/result2_gif.gif">
 </div>
+  
+## Data Collection & Labelling  
+
+For training this model we would need bunch of images with their ground-truth co-ordinates. The Images were collected by extracting optimal image frames from hours of surveillance camera videos.
+  
+In total 2000 were collected which were later manually annotated using the Image labelling tool called "LabelImg",which you can find [here](https://github.com/tzutalin/labelImg).
 
 
 ## Instructions for setup :
