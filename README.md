@@ -22,6 +22,10 @@ In total 2000 were collected which were later manually annotated using the Image
 
 ## Instructions for setup 
 1. Create a new Python environment & install all packages mentioned in the requirements.txt file
+  
+```
+pip install - r requirements.txt
+```
 
 2. Install the Tensorflow object detection API on your system.This is a bit tedious task and may cause errors,please refer to the below links :
   - https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/
