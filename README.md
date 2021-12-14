@@ -20,8 +20,13 @@ For training this model we would need bunch of images with their ground-truth co
 In total 2000 were collected which were later manually annotated using the Image labelling tool called "LabelImg",which you can find [here](https://github.com/tzutalin/labelImg).
 
 
-## Instructions for setup 
-1. Create a new Python environment & install all packages mentioned in the requirements.txt file
+## Instructions for setup
+1. Git clone the repository on your local system
+```
+git clone https://github.com/deepeshdm/Cumulative-Counting-Object-Detection.git
+```
+  
+2. Create a new Python environment & install all packages mentioned in the requirements.txt file
   
 ```
 pip install - r requirements.txt
@@ -31,10 +36,10 @@ pip install - r requirements.txt
   - https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/
   - https://youtu.be/dZh_ps8gKgs
  
-3. Download the trained model (saved_model folder) by clicking [here](https://drive.google.com/drive/folders/1AICgCnkSAtvTDh8DiX9yaDpslGqbIUsX?usp=sharing).
+4. Download the trained model (saved_model folder) by clicking [here](https://drive.google.com/drive/folders/1AICgCnkSAtvTDh8DiX9yaDpslGqbIUsX?usp=sharing).
 
 
-## To use API (Locally) :
+## API Guide :
 
 The 'mainAPI.py' file is the main file & acts as an simple API.It imports the run_inference() function from another script,this function takes multiple parameters like file paths , detection threshold,skip_frames etc all of them are mentioned in detail inside the script.
 
